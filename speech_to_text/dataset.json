@@ -1,0 +1,22 @@
+{
+  "train": [
+    {
+      "audio": "speech_to_text/dataset/aka2.m4a",
+      "text": "Xin chao, ban co khoe khong?"
+    },
+    {
+      "audio": "speech_to_text/dataset/aka1.m4a",
+      "text": "Hom nay thoi tiet that dep!"
+    },
+    {
+      "audio": "speech_to_text/dataset/test.m4a",
+      "text": "Xin chao"
+    }
+  ],
+  "test": [
+    {
+      "audio": "speech_to_text/dataset/test.m4a",
+      "text": "Xin chao"
+    }
+  ]
+}
