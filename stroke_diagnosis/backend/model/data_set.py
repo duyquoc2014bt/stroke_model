@@ -3,9 +3,9 @@ from sklearn.preprocessing import StandardScaler, OrdinalEncoder
 from sklearn.compose import ColumnTransformer
 
 data = pd.read_excel("backend/model/data.xlsx", engine="openpyxl", header=0)
-print(data.columns.to_list())
 test_data = pd.read_excel("backend/model/test.xlsx", engine="openpyxl", header=0)
 X = data.drop(columns=['results'])
+columns = X.columns.to_list()
 X_test = test_data.drop(columns=['results'])
 y = data['results']
 
