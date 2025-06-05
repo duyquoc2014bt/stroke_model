@@ -1,4 +1,0 @@
-sample_01.png|helloworld
-sample_03.png|aka
-sample_04.png|CTCLoss
-sample_05.png|abcdefghijkoboooo
